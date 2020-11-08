@@ -1,0 +1,32 @@
+
+<div class="background">
+    <div class="button">
+        <a class="innerTxt" [routerLink]="['/']" >{{"סיים"}}</a>
+    </div>
+    <div class="center">
+        <div class="upperDiv">
+            <div class="rightData">
+                <label class="innerLbl">המרחק בק"מ</label>
+                <br>
+                <label class="yellowLbl">78.6</label>
+            </div>
+            <label class="line">|</label>
+            <div class="leftData">
+                <label class="innerLbl">המרחק הפופולארי ביותר</label>
+                <br>
+                <label class="yellowLbl">32</label>
+                <br>
+                <div class="inner">
+                    <label class="little"> ירושלים</label>
+                    <label class="little">|</label>
+                    <label class="little"> תל אביב</label>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <label class="lbl">רשימת התוצאות הפופולאריות</label>
+            <app-popular-list></app-popular-list>
+        </div>
+    </div>
+</div>
+

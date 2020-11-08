@@ -1,0 +1,21 @@
+.uoter-item-div{
+    height: 50px;
+    width: 400px;
+    background-color: #404040;
+    //background-color: #353535;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.rightDiv{
+    float: right;
+    margin: 7px;
+}
+.leftDiv{
+    float: left;
+    margin: 7px;
+}
+.data{
+    display: flex;
+    justify-content: right;
+}
